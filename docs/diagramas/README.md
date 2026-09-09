@@ -14,6 +14,12 @@ Proceso: [PNG](02_corine_land_proceso.png) · [drawio](02_corine_land_proceso.dr
 
 Análisis: [PNG](02_corine_land_analisis.png) · [drawio](02_corine_land_analisis.drawio)
 
+## Notebook 03 · OSM / Geofabrik
+
+Proceso: [PNG](03_osm_geofabrik_proceso.png) · [drawio](03_osm_geofabrik_proceso.drawio)
+
+Análisis: [PNG](03_osm_geofabrik_analisis.png) · [drawio](03_osm_geofabrik_analisis.drawio)
+
 Los archivos `.drawio` son las versiones editables de los diagramas y se pueden abrir con diagrams.net.
 
 Si modificamos de forma importante un notebook, revisamos también sus diagramas.
