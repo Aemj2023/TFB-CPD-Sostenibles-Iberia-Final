@@ -20,6 +20,12 @@ Proceso: [PNG](03_osm_geofabrik_proceso.png) · [drawio](03_osm_geofabrik_proces
 
 Análisis: [PNG](03_osm_geofabrik_analisis.png) · [drawio](03_osm_geofabrik_analisis.drawio)
 
+## Notebook 04 · PVGIS
+
+Proceso: [PNG](04_pvgis_proceso.png) · [drawio](04_pvgis_proceso.drawio)
+
+Análisis: [PNG](04_pvgis_analisis.png) · [drawio](04_pvgis_analisis.drawio)
+
 Los archivos `.drawio` son las versiones editables de los diagramas y se pueden abrir con diagrams.net.
 
 Si modificamos de forma importante un notebook, revisamos también sus diagramas.
