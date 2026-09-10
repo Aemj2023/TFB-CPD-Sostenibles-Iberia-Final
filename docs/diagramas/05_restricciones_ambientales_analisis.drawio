@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="nb05-analysis-corrected" name="Página-1">
+    <mxGraphModel dx="2943" dy="1880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1123" pageHeight="1905" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontColor=#000000;fontSize=22;fontStyle=1;" value="Notebook 05 · Análisis de restricciones ambientales" vertex="1">
+          <mxGeometry height="45" width="843" x="140" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="validated" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1;" value="&lt;b&gt;Áreas protegidas validadas&lt;/b&gt;&lt;br&gt;1.553 integradas · 1.551 comparables · 2 complementarias" vertex="1">
+          <mxGeometry height="82" width="550" x="286" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="desc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1;" value="&lt;b&gt;Lectura descriptiva&lt;/b&gt;&lt;br&gt;1.553 espacios · España · Portugal · Andorra" vertex="1">
+          <mxGeometry height="78" width="430" x="65" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="comp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1;" value="&lt;b&gt;Análisis comparable&lt;/b&gt;&lt;br&gt;1.551 espacios Natura 2000 · España + Portugal" vertex="1">
+          <mxGeometry height="78" width="430" x="628" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="coverage" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;Cobertura por país&lt;/b&gt;&lt;br&gt;España 1.449 · Portugal 102 · Andorra 2" vertex="1">
+          <mxGeometry height="82" width="430" x="65" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="surface" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;Superficies y distribución&lt;/b&gt;&lt;br&gt;EPSG:3035 · m² · ha · km²&lt;br&gt;las superficies individuales pueden solaparse" vertex="1">
+          <mxGeometry height="92" width="430" x="65" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="andorra" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;Andorra · Emerald Network&lt;/b&gt;&lt;br&gt;2 espacios · información ambiental complementaria&lt;br&gt;no equivalente a Natura 2000 para la comparación" vertex="1">
+          <mxGeometry height="92" width="430" x="65" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="desc_use" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;Uso descriptivo&lt;/b&gt;&lt;br&gt;mapa · recuentos · superficies&lt;br&gt;apoyo para interpretar la presión ambiental" vertex="1">
+          <mxGeometry height="90" width="430" x="65" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="rule" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1;" value="&lt;b&gt;Regla exploratoria de penalización&lt;/b&gt;&lt;br&gt;mayor proximidad al espacio protegido = mayor coste ambiental" vertex="1">
+          <mxGeometry height="82" width="430" x="628" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="scenarios" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1;" value="&lt;b&gt;4 escenarios acumulados del NB05&lt;/b&gt;&lt;br&gt;área protegida · 1,00&lt;br&gt;hasta 2,5 km · 0,75&lt;br&gt;hasta 5 km · 0,50&lt;br&gt;hasta 10 km · 0,25" vertex="1">
+          <mxGeometry height="130" width="430" x="628" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="buffers" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;Buffers acumulados&lt;/b&gt;&lt;br&gt;0 · 2.500 · 5.000 · 10.000 m&lt;br&gt;supuestos exploratorios · no distancias legales" vertex="1">
+          <mxGeometry height="90" width="430" x="628" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="nb10_inputs" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1;" value="&lt;b&gt;Entrada comparable al Notebook 10&lt;/b&gt;&lt;br&gt;capa de 1.551 espacios + tabla de 4 escenarios" vertex="1">
+          <mxGeometry height="88" width="430" x="628" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="nb10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1;" value="&lt;b&gt;Notebook 10 · territorialización ambiental&lt;/b&gt;" vertex="1">
+          <mxGeometry height="72" width="550" x="286" y="955" as="geometry" />
+        </mxCell>
+        <mxCell id="exclusive" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;Bandas territoriales exclusivas&lt;/b&gt;&lt;br&gt;dentro · 0–2,5 · 2,5–5 · 5–10 km&lt;br&gt;fuera de 10 km · penalización 0&lt;br&gt;sin doble conteo entre buffers acumulados" vertex="1">
+          <mxGeometry height="108" width="550" x="286" y="1075" as="geometry" />
+        </mxCell>
+        <mxCell id="aggregate" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;" value="&lt;b&gt;Agregación por territorio&lt;/b&gt;&lt;br&gt;se resume la penalización ambiental a escala territorial&lt;br&gt;Andorra permanece sin indicador comparable" vertex="1">
+          <mxGeometry height="95" width="550" x="286" y="1235" as="geometry" />
+        </mxCell>
+        <mxCell id="matrix" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1;" value="&lt;b&gt;Matriz territorial&lt;/b&gt;&lt;br&gt;densidad de espacios protegidos · información de apoyo&lt;br&gt;&lt;b&gt;ambiental_penalizacion_media_0_1 · variable activa de coste&lt;/b&gt;" vertex="1">
+          <mxGeometry height="105" width="650" x="236" y="1385" as="geometry" />
+        </mxCell>
+        <mxCell id="environment" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1;" value="&lt;b&gt;Dimensión Medio ambiente&lt;/b&gt;&lt;br&gt;ambiental_penalizacion_media_0_1 · 100 % de la dimensión&lt;br&gt;una penalización mayor reduce la idoneidad relativa" vertex="1">
+          <mxGeometry height="100" width="650" x="236" y="1545" as="geometry" />
+        </mxCell>
+        <mxCell id="iit" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1;" value="&lt;b&gt;Índice de Idoneidad Territorial para Centros de Procesamiento de Datos&lt;/b&gt;&lt;br&gt;IIT-CPD" vertex="1">
+          <mxGeometry height="92" width="650" x="236" y="1695" as="geometry" />
+        </mxCell>
+        <mxCell id="foot" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontColor=#000000;fontSize=13;" value="La regla de distancias es una hipótesis exploratoria del TFB y no una restricción legal. Natura 2000 se usa para la comparación España–Portugal; Emerald Network se mantiene como información complementaria para Andorra." vertex="1">
+          <mxGeometry height="55" width="933" x="95" y="1835" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="validated" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" target="desc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="validated" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" target="comp">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="desc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" target="coverage">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="coverage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" target="surface">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="coverage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;dashed=1;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="andorra">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="35" y="396" />
+              <mxPoint x="35" y="671" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="surface" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" target="desc_use">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="andorra" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;dashed=1;" target="desc_use">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="comp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" target="rule">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="rule" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" target="scenarios">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="scenarios" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" target="buffers">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="buffers" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" target="nb10_inputs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="nb10_inputs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" target="nb10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="nb10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" target="exclusive">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="exclusive" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" target="aggregate">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="aggregate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" target="matrix">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="matrix" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" target="environment">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="environment" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" target="iit">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
