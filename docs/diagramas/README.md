@@ -32,6 +32,12 @@ Proceso: [PNG](05_restricciones_ambientales_proceso.png) · [drawio](05_restricc
 
 Análisis: [PNG](05_restricciones_ambientales_analisis.png) · [drawio](05_restricciones_ambientales_analisis.drawio)
 
+## Notebook 06 · Infraestructura eléctrica
+
+Proceso: [PNG](06_infraestructura_electrica_proceso.png) · [drawio](06_infraestructura_electrica_proceso.drawio)
+
+Análisis: [PNG](06_infraestructura_electrica_analisis.png) · [drawio](06_infraestructura_electrica_analisis.drawio)
+
 Los archivos `.drawio` son las versiones editables de los diagramas y se pueden abrir con diagrams.net.
 
 Si modificamos de forma importante un notebook, revisamos también sus diagramas.
