@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="nb06-process" name="Proceso NB06">
+    <mxGraphModel dx="2060" dy="1316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;" value="Notebook 06 · Infraestructura eléctrica · proceso" vertex="1">
+          <mxGeometry height="40" width="520" x="300" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="contrast" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#777777;fontSize=12;align=center;verticalAlign=middle;" value="Redeia · REN · ENTSO-E · FEDA&#10;Fuentes oficiales de contraste" vertex="1">
+          <mxGeometry height="65" width="230" x="40" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="osm" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#444444;fontSize=13;align=center;verticalAlign=middle;" value="OpenStreetMap / Overpass&#10;Fuente común de infraestructura eléctrica" vertex="1">
+          <mxGeometry height="70" width="330" x="395" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="decision" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#444444;fontSize=12;align=center;verticalAlign=middle;" value="¿GeoPackage validado disponible&#10;en Kaggle Input?" vertex="1">
+          <mxGeometry height="105" width="260" x="430" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="load" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#444444;fontSize=12;align=center;verticalAlign=middle;" value="Cargar 3 capas validadas&#10;EPSG:3035" vertex="1">
+          <mxGeometry height="65" width="240" x="205" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="tiles" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#444444;fontSize=12;align=center;verticalAlign=middle;" value="Descargar mediante&#10;teselas Overpass" vertex="1">
+          <mxGeometry height="65" width="240" x="675" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="clean" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#444444;fontSize=12;align=center;verticalAlign=middle;" value="Unir, limpiar y clasificar&#10;los elementos eléctricos" vertex="1">
+          <mxGeometry height="65" width="240" x="675" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="clip" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#444444;fontSize=12;align=center;verticalAlign=middle;" value="Recortar al ámbito territorial&#10;del TFB" vertex="1">
+          <mxGeometry height="65" width="240" x="675" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="crs" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#444444;fontSize=12;align=center;verticalAlign=middle;" value="Trabajar en EPSG:3035" vertex="1">
+          <mxGeometry height="55" width="240" x="675" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="qc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#444444;fontSize=12;align=center;verticalAlign=middle;" value="Control de calidad&#10;de las 3 capas" vertex="1">
+          <mxGeometry height="65" width="300" x="410" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="andorra" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#444444;fontSize=12;align=center;verticalAlign=middle;" value="Validación específica de Andorra&#10;36 líneas · 12 alta tensión · 8 subestaciones" vertex="1">
+          <mxGeometry height="70" width="350" x="385" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="gpkg" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#444444;fontSize=12;align=center;verticalAlign=middle;" value="GeoPackage final&#10;3 capas · EPSG:3035" vertex="1">
+          <mxGeometry height="65" width="300" x="410" y="975" as="geometry" />
+        </mxCell>
+        <mxCell id="outputs" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#444444;fontSize=12;align=center;verticalAlign=middle;" value="CSV · mapas · dashboard" vertex="1">
+          <mxGeometry height="60" width="300" x="410" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="zip" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#444444;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" value="ZIP final · 14 archivos" vertex="1">
+          <mxGeometry height="60" width="300" x="410" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="osm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#444444;" target="decision">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="decision" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#444444;fontSize=11;" target="load" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="decision" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#444444;fontSize=11;" target="tiles" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="tiles" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#444444;" target="clean">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="clean" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#444444;" target="crs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="crs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#444444;" target="clip">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="load" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=#444444;" target="junction_qc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="clip" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeColor=#444444;" target="junction_qc">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="junction_qc" parent="1" style="ellipse;html=1;opacity=0;fillOpacity=0;strokeOpacity=0;" vertex="1">
+          <mxGeometry x="559.5" y="735" width="1" height="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="junction_qc" target="qc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#444444;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="qc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#444444;" target="andorra">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="andorra" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#444444;" target="gpkg">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="gpkg" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#444444;" target="outputs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="outputs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#444444;" target="zip">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
