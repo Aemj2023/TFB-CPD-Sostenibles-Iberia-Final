@@ -11,5 +11,6 @@ Los numeramos según el orden en que vamos trabajando las distintas partes del p
 | 03 | [OSM / Geofabrik](03-osm-geofabrik-logistica-y-accesibilidad.ipynb) | Red viaria y núcleos de población | Completado |
 | 04 | [PVGIS](04-pvgis-api-solar-fotovoltaica.ipynb) | Potencial solar fotovoltaico | Completado |
 | 05 | [Restricciones ambientales](05-restricciones-ambientales-areas-protegidas.ipynb) | Áreas protegidas y penalización ambiental | Completado |
+| 06 | [Infraestructura eléctrica OSM / Overpass](06-infraestructura-electrica-osm-overpass-iberia.ipynb) | Líneas y cables, alta tensión ≥ 110 kV y subestaciones | Completado |
 
 En GitHub dejamos principalmente los notebooks y la documentación. Los archivos de resultados que ocupan más espacio los guardamos aparte.
