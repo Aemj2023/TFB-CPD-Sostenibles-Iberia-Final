@@ -49,6 +49,10 @@ Análisis: [PNG](07_conectividad_digital_analisis.png) · [drawio](07_conectivid
 - Proceso: [PNG](08_demografia_mercado_laboral_capital_humano_proceso.png) · [drawio](08_demografia_mercado_laboral_capital_humano_proceso.drawio)
 - Análisis: [PNG](08_demografia_mercado_laboral_capital_humano_analisis.png) · [drawio](08_demografia_mercado_laboral_capital_humano_analisis.drawio)
 
-Los archivos `.drawio` son las versiones editables de los diagramas y se pueden abrir con diagrams.net.
+### Notebook 09 · Geometrías base territoriales
 
+- Proceso: [PNG](09_geometrias_base_territoriales_proceso.png) · [drawio](09_geometrias_base_territoriales_proceso.drawio)
+- Análisis: [PNG](09_geometrias_base_territoriales_analisis.png) · [drawio](09_geometrias_base_territoriales_analisis.drawio)
+
+Los archivos `.drawio` son las versiones editables de los diagramas y se pueden abrir con diagrams.net.
 Si modificamos de forma importante un notebook, revisamos también sus diagramas.
