@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="24.7.17" type="device">
+  <diagram id="nb07-proceso" name="Proceso">
+    <mxGraphModel dx="1200" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1930" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Notebook 07 · Proceso de conectividad digital" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=22;fontFamily=Helvetica;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="20" width="840" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="S0" value="&lt;b&gt;Conectividad digital&lt;/b&gt;&lt;br&gt;OSM / Overpass · PeeringDB · RIPE Atlas" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontFamily=Helvetica;strokeWidth=1.4;strokeColor=#000000;fillColor=#ffffff;arcSize=10;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="345" y="90" width="410" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="S1" value="Buscamos los productos validados en Kaggle Input" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontFamily=Helvetica;strokeWidth=1.4;strokeColor=#000000;fillColor=#ffffff;arcSize=10;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="345" y="195" width="410" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="D0" value="¿Productos finales disponibles?" style="rhombus;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontFamily=Helvetica;strokeWidth=1.4;strokeColor=#000000;fillColor=#ffffff;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="390" y="300" width="320" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="YES" value="&lt;b&gt;Reutilizamos los productos validados&lt;/b&gt;&lt;br&gt;sin repetir las consultas" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontFamily=Helvetica;strokeWidth=1.4;strokeColor=#000000;fillColor=#ffffff;arcSize=10;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="70" y="475" width="320" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="NO" value="&lt;b&gt;Consultamos las fuentes abiertas&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontFamily=Helvetica;strokeWidth=1.4;strokeColor=#000000;fillColor=#ffffff;arcSize=10;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="700" y="465" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="API1" value="OSM / Overpass · 126 teselas&lt;br&gt;PeeringDB · facilities e IXPs&lt;br&gt;RIPE Atlas · probes activos" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontFamily=Helvetica;strokeWidth=1.4;strokeColor=#000000;fillColor=#ffffff;arcSize=10;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="700" y="570" width="330" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="API2" value="&lt;b&gt;Preparamos los datos&lt;/b&gt;&lt;br&gt;OSM: puntos, líneas y polígonos&lt;br&gt;PeeringDB: facilities con coordenadas&lt;br&gt;RIPE Atlas: probes activos&lt;br&gt;IXPs: información descriptiva" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontFamily=Helvetica;strokeWidth=1.4;strokeColor=#000000;fillColor=#ffffff;arcSize=10;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="675" y="710" width="380" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="API3" value="&lt;b&gt;Recorte territorial&lt;/b&gt;&lt;br&gt;España peninsular · Portugal continental · Andorra" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontFamily=Helvetica;strokeWidth=1.4;strokeColor=#000000;fillColor=#ffffff;arcSize=10;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="690" y="885" width="350" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="API4" value="Unificamos los nodos digitales&lt;br&gt;y conservamos las capas OSM auxiliares" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontFamily=Helvetica;strokeWidth=1.4;strokeColor=#000000;fillColor=#ffffff;arcSize=10;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1005" width="330" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="API5" value="Guardamos los mismos productos finales&lt;br&gt;en EPSG:4326 y EPSG:3035" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontFamily=Helvetica;strokeWidth=1.4;strokeColor=#000000;fillColor=#ffffff;arcSize=10;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1120" width="330" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="LOAD" value="&lt;b&gt;Cargamos las capas finales&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontFamily=Helvetica;strokeWidth=1.4;strokeColor=#000000;fillColor=#ffffff;arcSize=10;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1240" width="370" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="QA" value="&lt;b&gt;Control de calidad&lt;/b&gt;&lt;br&gt;geometrías · CRS · identificadores duplicados" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontFamily=Helvetica;strokeWidth=1.4;strokeColor=#000000;fillColor=#ffffff;arcSize=10;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1345" width="420" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="AND" value="Validamos la cobertura de Andorra" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontFamily=Helvetica;strokeWidth=1.4;strokeColor=#000000;fillColor=#ffffff;arcSize=10;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1465" width="340" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="OUT" value="Preparamos tablas, mapa, dashboard e inventario" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontFamily=Helvetica;strokeWidth=1.4;strokeColor=#000000;fillColor=#ffffff;arcSize=10;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1570" width="430" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="ZIP" value="Creamos el ZIP final de resultados" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontFamily=Helvetica;strokeWidth=1.4;strokeColor=#000000;fillColor=#ffffff;arcSize=10;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1675" width="340" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="NB10" value="&lt;b&gt;Comprobamos la compatibilidad con el Notebook 10&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontFamily=Helvetica;strokeWidth=1.4;strokeColor=#000000;fillColor=#ffffff;arcSize=10;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1780" width="470" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.35;strokeColor=#000000;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="S0" target="S1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.35;strokeColor=#000000;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="S1" target="D0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.35;strokeColor=#000000;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="D0" target="YES" value="Sí">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="235" y="356" />
+              <mxPoint x="235" y="455" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.35;strokeColor=#000000;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="D0" target="NO" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="865" y="356" />
+              <mxPoint x="865" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.35;strokeColor=#000000;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="NO" target="API1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.35;strokeColor=#000000;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="API1" target="API2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.35;strokeColor=#000000;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="API2" target="API3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.35;strokeColor=#000000;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="API3" target="API4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.35;strokeColor=#000000;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="API4" target="API5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.35;strokeColor=#000000;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="YES" target="LOAD">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="620" />
+              <mxPoint x="230" y="1274" />
+              <mxPoint x="345" y="1274" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.35;strokeColor=#000000;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="API5" target="LOAD">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="865" y="1220" />
+              <mxPoint x="865" y="1274" />
+              <mxPoint x="755" y="1274" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.35;strokeColor=#000000;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="LOAD" target="QA">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.35;strokeColor=#000000;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="QA" target="AND">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.35;strokeColor=#000000;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="AND" target="OUT">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.35;strokeColor=#000000;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="OUT" target="ZIP">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.35;strokeColor=#000000;fontSize=12;fontFamily=Helvetica;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="ZIP" target="NB10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
