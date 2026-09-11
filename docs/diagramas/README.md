@@ -44,6 +44,11 @@ Proceso: [PNG](07_conectividad_digital_proceso.png) · [drawio](07_conectividad_
 
 Análisis: [PNG](07_conectividad_digital_analisis.png) · [drawio](07_conectividad_digital_analisis.drawio)
 
+### Notebook 08 · Demografía, mercado laboral y capital humano
+
+- Proceso: [PNG](08_demografia_mercado_laboral_capital_humano_proceso.png) · [drawio](08_demografia_mercado_laboral_capital_humano_proceso.drawio)
+- Análisis: [PNG](08_demografia_mercado_laboral_capital_humano_analisis.png) · [drawio](08_demografia_mercado_laboral_capital_humano_analisis.drawio)
+
 Los archivos `.drawio` son las versiones editables de los diagramas y se pueden abrir con diagrams.net.
 
 Si modificamos de forma importante un notebook, revisamos también sus diagramas.
