@@ -12,5 +12,6 @@ Los numeramos según el orden en que vamos trabajando las distintas partes del p
 | 04 | [PVGIS](04-pvgis-api-solar-fotovoltaica.ipynb) | Potencial solar fotovoltaico | Completado |
 | 05 | [Restricciones ambientales](05-restricciones-ambientales-areas-protegidas.ipynb) | Áreas protegidas y penalización ambiental | Completado |
 | 06 | [Infraestructura eléctrica OSM / Overpass](06-infraestructura-electrica-osm-overpass-iberia.ipynb) | Líneas y cables, alta tensión ≥ 110 kV y subestaciones | Completado |
+| 07 | [Conectividad digital y telecomunicaciones](07-conectividad-digital-y-telecomunicaciones.ipynb) | Nodos e infraestructura de conectividad digital | Completado |
 
 En GitHub dejamos principalmente los notebooks y la documentación. Los archivos de resultados que ocupan más espacio los guardamos aparte.
