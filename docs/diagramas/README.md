@@ -38,6 +38,12 @@ Proceso: [PNG](06_infraestructura_electrica_proceso.png) · [drawio](06_infraest
 
 Análisis: [PNG](06_infraestructura_electrica_analisis.png) · [drawio](06_infraestructura_electrica_analisis.drawio)
 
+## Notebook 07 · Conectividad digital y telecomunicaciones
+
+Proceso: [PNG](07_conectividad_digital_proceso.png) · [drawio](07_conectividad_digital_proceso.drawio)
+
+Análisis: [PNG](07_conectividad_digital_analisis.png) · [drawio](07_conectividad_digital_analisis.drawio)
+
 Los archivos `.drawio` son las versiones editables de los diagramas y se pueden abrir con diagrams.net.
 
 Si modificamos de forma importante un notebook, revisamos también sus diagramas.
