@@ -1,1 +1,98 @@
-<mxfile host="app.diagrams.net" type="device"><diagram id="nb04-process-final" name="Página-1"><mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1123" pageHeight="1587" math="0" shadow="0"><root><mxCell id="0" /><mxCell id="1" parent="0" /><mxCell id="title" value="Notebook 04 · Proceso PVGIS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=22;fontStyle=1;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="180" y="20" width="763" height="40" as="geometry" /></mxCell><mxCell id="points" value="&lt;b&gt;24 puntos representativos&lt;/b&gt;&lt;br&gt;España peninsular · Portugal continental · Andorra" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="331" y="80" width="460" height="70" as="geometry" /></mxCell><mxCell id="input_check" value="Buscar resultados PVGIS válidos en Kaggle Input" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1"><mxGeometry x="311" y="190" width="500" height="65" as="geometry" /></mxCell><mxCell id="decision" value="¿24 puntos y 288 registros mensuales&lt;br&gt;disponibles y válidos?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;" vertex="1" parent="1"><mxGeometry x="411" y="290" width="300" height="110" as="geometry" /></mxCell><mxCell id="reuse" value="&lt;b&gt;Reutilizar resultados existentes&lt;/b&gt;&lt;br&gt;24 puntos · 288 registros mensuales&lt;br&gt;24 JSON localizados · 0 errores" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1"><mxGeometry x="55" y="300" width="290" height="105" as="geometry" /></mxCell><mxCell id="api" value="&lt;b&gt;Consultar PVGIS 5.3 · PVcalc&lt;/b&gt;&lt;br&gt;1 kWp · crystSi · building&lt;br&gt;ángulos óptimos · pérdidas 14 %" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1"><mxGeometry x="778" y="300" width="290" height="105" as="geometry" /></mxCell><mxCell id="json" value="Guardar respuestas JSON originales&lt;br&gt;y URLs de consulta" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1"><mxGeometry x="778" y="455" width="290" height="80" as="geometry" /></mxCell><mxCell id="tables" value="&lt;b&gt;Tablas PVGIS validadas&lt;/b&gt;&lt;br&gt;resumen anual + tabla mensual + errores&lt;br&gt;24 puntos · 288 registros mensuales" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="301" y="585" width="520" height="100" as="geometry" /></mxCell><mxCell id="solar_metrics" value="&lt;b&gt;Calcular indicadores solares&lt;/b&gt;&lt;br&gt;producción anual · irradiación · pérdidas totales&lt;br&gt;coeficiente de variación mensual · estabilidad" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1"><mxGeometry x="246" y="735" width="630" height="105" as="geometry" /></mxCell><mxCell id="exploratory" value="&lt;b&gt;Índice solar exploratorio del NB04&lt;/b&gt;&lt;br&gt;80 % producción anual + 20 % estabilidad mensual&lt;br&gt;ranking relativo de los 24 puntos" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1"><mxGeometry x="246" y="885" width="630" height="100" as="geometry" /></mxCell><mxCell id="summaries" value="&lt;b&gt;Resultados descriptivos&lt;/b&gt;&lt;br&gt;resúmenes por país y región · 3 figuras&lt;br&gt;dashboard HTML autónomo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1"><mxGeometry x="246" y="1030" width="630" height="95" as="geometry" /></mxCell><mxCell id="package" value="&lt;b&gt;Paquete final PVGIS&lt;/b&gt;&lt;br&gt;11 archivos procesados + 24 JSON originales&lt;br&gt;&lt;b&gt;ZIP · 35 archivos · 0,75 MB&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="291" y="1170" width="540" height="100" as="geometry" /></mxCell><mxCell id="integration" value="&lt;b&gt;Integración territorial posterior&lt;/b&gt;&lt;br&gt;producción anual + coeficiente de variación mensual&lt;br&gt;pérdidas totales como variable de apoyo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;fontFamily=Arial;fontSize=14;align=center;verticalAlign=middle;spacing=8;" vertex="1" parent="1"><mxGeometry x="261" y="1315" width="600" height="105" as="geometry" /></mxCell><mxCell id="foot" value="El índice 80/20 es exploratorio del Notebook 04. El IIT-CPD utiliza posteriormente la producción anual y el coeficiente de variación como indicadores separados." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Arial;fontSize=10;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="140" y="1480" width="843" height="50" as="geometry" /></mxCell><mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" edge="1" parent="1" source="points" target="input_check"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" edge="1" parent="1" source="input_check" target="decision"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" edge="1" parent="1" source="decision" target="reuse" value="Sí"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" edge="1" parent="1" source="decision" target="api" value="No"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" edge="1" parent="1" source="api" target="json"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" edge="1" parent="1" source="reuse" target="tables"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" edge="1" parent="1" source="json" target="tables"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" edge="1" parent="1" source="tables" target="solar_metrics"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" edge="1" parent="1" source="solar_metrics" target="exploratory"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" edge="1" parent="1" source="exploratory" target="summaries"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" edge="1" parent="1" source="summaries" target="package"><mxGeometry relative="1" as="geometry" /></mxCell><mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1.2;endArrow=block;endFill=1;fontFamily=Arial;fontSize=12;" edge="1" parent="1" source="package" target="integration"><mxGeometry relative="1" as="geometry" /></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile host="app.diagrams.net">
+  <diagram id="NB04_proceso" name="NB04 proceso">
+    <mxGraphModel dx="3433" dy="2193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="2300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p_title" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=26;fontStyle=1;" value="Notebook 04 · Proceso PVGIS" vertex="1">
+          <mxGeometry height="40" width="760" x="420" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=16;fontStyle=1;" value="24 puntos representativos&#xa;España peninsular · Portugal continental · Andorra" vertex="1">
+          <mxGeometry height="90" width="700" x="450" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=15;" value="Buscar resultados PVGIS disponibles en Kaggle Input" vertex="1">
+          <mxGeometry height="95" width="760" x="420" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" parent="1" style="shape=rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;fontSize=15;" value="¿Están disponibles las tablas anual y mensual?" vertex="1">
+          <mxGeometry height="140" width="560" x="520" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_left" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=14;" value="Reutilizar resultados existentes&#xa;24 puntos · 288 registros mensuales&#xa;24 JSON localizados · 0 errores" vertex="1">
+          <mxGeometry height="120" width="430" x="40" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="p4_right" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=14;fontStyle=1;" value="Consultar PVGIS 5.3 · PVcalc&#xa;1 kWp · crystSi · building&#xa;ángulos óptimos · pérdidas 14 %" vertex="1">
+          <mxGeometry height="130" width="430" x="1130" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="p5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=14;" value="Guardar respuestas JSON originales&#xa;y URLs de consulta" vertex="1">
+          <mxGeometry height="100" width="330" x="1180" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="p6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=15;fontStyle=1;" value="Tablas PVGIS validadas&#xa;resumen anual + tabla mensual + errores&#xa;24 puntos · 288 registros mensuales" vertex="1">
+          <mxGeometry height="110" width="800" x="400" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="p7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=15;" value="Calcular indicadores solares&#xa;producción anual · irradiación · pérdidas totales&#xa;coeficiente de variación mensual · estabilidad" vertex="1">
+          <mxGeometry height="120" width="880" x="360" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="p8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=16;fontStyle=1;" value="Índice solar exploratorio del NB04&#xa;80 % producción anual + 20 % estabilidad mensual&#xa;ranking relativo de los 24 puntos" vertex="1">
+          <mxGeometry height="120" width="800" x="400" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="p9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=15;" value="Resultados descriptivos&#xa;resúmenes por país y región · 3 figuras&#xa;dashboard HTML autónomo" vertex="1">
+          <mxGeometry height="120" width="800" x="400" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="p10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=16;fontStyle=1;" value="Paquete final PVGIS&#xa;11 archivos procesados + 24 JSON originales&#xa;ZIP · 35 archivos · 0,81 MB" vertex="1">
+          <mxGeometry height="120" width="660" x="470" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="p11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#333333;fontSize=15;" value="Integración territorial posterior&#xa;producción anual + coeficiente de variación mensual&#xa;pérdidas totales como variable de apoyo" vertex="1">
+          <mxGeometry height="130" width="880" x="360" y="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="p_note" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;" value="El índice 80/20 es exploratorio del Notebook 04. El IIT-CPD utiliza posteriormente la producción anual y el coeficiente de variación como indicadores separados." vertex="1">
+          <mxGeometry height="40" width="1240" x="180" y="1900" as="geometry" />
+        </mxCell>
+        <mxCell id="pe1" edge="1" parent="1" source="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pe2" edge="1" parent="1" source="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pe3" edge="1" parent="1" source="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="p4_left" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pe4" edge="1" parent="1" source="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="p4_right" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pe5" edge="1" parent="1" source="p4_right" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pe6" edge="1" parent="1" source="p4_left" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.3;entryY=0;entryDx=0;entryDy=0;" target="p6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="665" />
+              <mxPoint x="640" y="665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pe7" edge="1" parent="1" source="p5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.76;entryY=0;entryDx=0;entryDy=0;" target="p6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1345" y="720" />
+              <mxPoint x="1008" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pe8" edge="1" parent="1" source="p6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pe9" edge="1" parent="1" source="p7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pe10" edge="1" parent="1" source="p8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pe11" edge="1" parent="1" source="p9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pe12" edge="1" parent="1" source="p10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="p11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
