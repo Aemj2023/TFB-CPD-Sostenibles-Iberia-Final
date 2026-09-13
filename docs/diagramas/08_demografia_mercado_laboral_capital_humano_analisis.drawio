@@ -1,102 +1,98 @@
-<?xml version='1.0' encoding='utf-8'?>
-<mxfile host="app.diagrams.net" version="24.7.17">
-  <diagram name="Page-1">
-    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1210" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2026-09-13T16:05:00.000Z" version="24.7.17" type="device">
+  <diagram id="Analisis_NB08" name="Analisis_NB08">
+    <mxGraphModel dx="1200" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1400" math="0" shadow="0">
       <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="title" value="Notebook 08 · Demografía, mercado laboral y capital humano · análisis" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=22;fontStyle=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="70" y="20" width="1060" height="50" as="geometry" />
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="a1" value="23 territorios integrados" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="440" y="20" width="320" height="55" as="geometry"/>
         </mxCell>
-        <mxCell id="A" value="23 territorios integrados" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="440" y="85" width="320" height="60" as="geometry" />
+        <mxCell id="a2" value="22 regiones NUTS 2&amp;#xa;comparables" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="135" width="300" height="65" as="geometry"/>
         </mxCell>
-        <mxCell id="B" value="22 regiones NUTS 2&lt;br&gt;comparables" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="90" y="200" width="300" height="70" as="geometry" />
+        <mxCell id="a3" value="5 indicadores originales&amp;#xa;+ años de referencia" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="430" y="135" width="300" height="65" as="geometry"/>
         </mxCell>
-        <mxCell id="C" value="5 indicadores para el análisis exploratorio" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="90" y="315" width="300" height="65" as="geometry" />
+        <mxCell id="a4" value="Andorra&amp;#xa;unidad complementaria" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="820" y="135" width="300" height="65" as="geometry"/>
         </mxCell>
-        <mxCell id="D" value="Transformación y normalización&lt;br&gt;Log1p: población total · edad laboral · densidad&lt;br&gt;Desempleo en sentido inverso" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="50" y="425" width="380" height="90" as="geometry" />
+        <mxCell id="a5" value="5 indicadores para el análisis exploratorio" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="260" width="300" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="E" value="Ponderación&lt;br&gt;15% · 25% · 15% · 20% · 25%" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="90" y="560" width="300" height="75" as="geometry" />
+        <mxCell id="a6" value="3 salidas para Notebook 10&amp;#xa;completa · NUTS2 · Andorra" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="430" y="260" width="320" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="F" value="Índice exploratorio&lt;br&gt;0–100" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="90" y="680" width="300" height="65" as="geometry" />
+        <mxCell id="a7" value="4 de 5 indicadores" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="860" y="260" width="220" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="G" value="Ranking de 22 regiones" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="90" y="790" width="300" height="65" as="geometry" />
+        <mxCell id="a8" value="Transformación y normalización&amp;#xa;Log1p: población total · edad laboral · densidad&amp;#xa;Desempleo en sentido inverso" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="20" y="385" width="340" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="H" value="1ª · Comunidad de Madrid · 85,48 puntos&lt;br&gt;22ª · Alentejo · 24,10 puntos" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="50" y="900" width="380" height="80" as="geometry" />
+        <mxCell id="a9" value="Sin tasa de desempleo&amp;#xa;en el Notebook 08" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="840" y="390" width="260" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="I" value="Categorías · 3 figuras · dashboard HTML" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="90" y="1025" width="300" height="65" as="geometry" />
+        <mxCell id="a10" value="Ponderación&amp;#xa;15% · 25% · 15% · 20% · 25%" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="530" width="240" height="65" as="geometry"/>
         </mxCell>
-        <mxCell id="J" value="5 indicadores originales&lt;br&gt;+ años de referencia" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="450" y="200" width="300" height="70" as="geometry" />
+        <mxCell id="a11" value="Fuera del ranking NUTS 2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="860" y="525" width="220" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="K" value="Tabla para el Notebook 10&lt;br&gt;modelo_socioeconomico_capital_humano_&lt;br&gt;tabla_completa_notebook_08.csv" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="430" y="315" width="340" height="90" as="geometry" />
+        <mxCell id="a12" value="Índice exploratorio&amp;#xa;0–100" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="650" width="240" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="L" value="Andorra&lt;br&gt;unidad complementaria" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="810" y="200" width="300" height="70" as="geometry" />
+        <mxCell id="a13" value="Ranking de 22 regiones" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="765" width="240" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="M" value="4 de 5 indicadores" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="810" y="315" width="300" height="65" as="geometry" />
+        <mxCell id="a14" value="1ª · Comunidad de Madrid · 85,48 puntos&amp;#xa;22ª · Alentejo · 24,10 puntos" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="20" y="885" width="340" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="N" value="Sin tasa de desempleo&lt;br&gt;en el Notebook 08" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="810" y="425" width="300" height="70" as="geometry" />
+        <mxCell id="a15" value="Categorías · 3 figuras · dashboard HTML" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1010" width="240" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="O" value="Fuera del ranking NUTS 2" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=13;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="810" y="540" width="300" height="65" as="geometry" />
+        <mxCell id="a16" value="Nota metodológica: el índice del Notebook 08 es descriptivo.&amp;#xa;El Notebook 10 integra los indicadores originales y sus años de referencia." style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=0;strokeColor=#000000;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1125" width="560" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="note" value="Nota metodológica: el índice del Notebook 08 es descriptivo. El Notebook 10 integra los indicadores originales y sus años de referencia." style="text;html=1;strokeColor=none;fillColor=none;fontColor=#000000;fontSize=12;fontStyle=2;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1120" width="600" height="45" as="geometry" />
+        <mxCell id="ae1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="a1" target="a2">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="A" target="B">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ae2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="a1" target="a3">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="A" target="J">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ae3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="a1" target="a4">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="A" target="L">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ae4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="a2" target="a5">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="B" target="C">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ae5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="a3" target="a6">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="C" target="D">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ae6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="a4" target="a7">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="D" target="E">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ae7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="a5" target="a8">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="E" target="F">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ae8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="a7" target="a9">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="F" target="G">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ae9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="a8" target="a10">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="G" target="H">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ae10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="a9" target="a11">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="H" target="I">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ae11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="a10" target="a12">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="J" target="K">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ae12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="a12" target="a13">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="L" target="M">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ae13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="a13" target="a14">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
-        <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="M" target="N">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="N" target="O">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ae14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="a14" target="a15">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
