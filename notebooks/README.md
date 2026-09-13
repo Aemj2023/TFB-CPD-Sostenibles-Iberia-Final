@@ -15,5 +15,6 @@ Los numeramos según el orden en que vamos trabajando las distintas partes del p
 | 07 | [Conectividad digital y telecomunicaciones](07-conectividad-digital-y-telecomunicaciones.ipynb) | Nodos e infraestructura de conectividad digital | Completado |
 | 08 | [Demografía, mercado laboral y capital humano](08-demografia-laboral-capital-humano-iberia.ipynb) | Demografía, mercado laboral y capital humano | Completado |
 | 09 | [Geometrías base territoriales de Iberia](09-geometrias-base-territoriales-iberia.ipynb) | Base geográfica común, áreas, centroides y claves territoriales | Completado |
+| [10 · Dataset maestro territorial](10-dataset-maestro-integracion-territorial.ipynb) | Resultados 01–09 y EEA WEI+ | Integración y validación territorial | Completado |
 
 En GitHub dejamos principalmente los notebooks y la documentación. Los archivos de resultados que ocupan más espacio los guardamos aparte.
