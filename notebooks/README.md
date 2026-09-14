@@ -20,5 +20,6 @@ Los numeramos según el orden en que vamos trabajando las distintas partes del p
 | 12 | [Preparación de la matriz multivariante](12-preparacion-y-matriz-multivariante.ipynb) | Selección de variables, transformaciones y estandarización de la matriz multivariante | Completado |
 | 13 | [Detección de singularidades territoriales mediante Isolation Forest](13-isolation-forest.ipynb) | Detección, estabilidad y caracterización de singularidades territoriales mediante Isolation Forest | Completado |
 | 14 | [Análisis multivariante mediante PCA](14-pca-multivariante.ipynb) | Reducción exploratoria de dimensionalidad, interpretación de componentes y preparación para clustering | Completado |
+| 15 | [K-Means para perfiles territoriales](15-kmeans.ipynb) | Formación, estabilidad e interpretación de perfiles territoriales | Completado |
 
 En GitHub dejamos principalmente los notebooks y la documentación. Los archivos de resultados que ocupan más espacio los guardamos aparte.
