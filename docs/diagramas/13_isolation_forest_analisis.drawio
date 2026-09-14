@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="nb13-analysis" name="Análisis NB13">
+    <mxGraphModel dx="1585" dy="1012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ffffff;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;" value="Notebook 13 · Análisis de singularidades territoriales" vertex="1">
+          <mxGeometry height="50" width="670" x="250" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="A" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;" value="Resultados combinados&lt;br&gt;&lt;span&gt;modelo base + estabilidad entre semillas + sensibilidad a contamination&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="510" x="330" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="B" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;" value="&lt;b&gt;Grande Lisboa&lt;/b&gt;&lt;br&gt;Modelo base: singular&lt;br&gt;5/5 semillas · 3/3 umbrales&lt;br&gt;Perfil urbano, logístico, digital y eléctrico" vertex="1">
+          <mxGeometry height="125" width="250" x="40" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="C" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;" value="&lt;b&gt;Península de Setúbal&lt;/b&gt;&lt;br&gt;Modelo base: singular&lt;br&gt;4/5 semillas · 3/3 umbrales&lt;br&gt;Infraestructura digital, eléctrica y viaria" vertex="1">
+          <mxGeometry height="125" width="250" x="320" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="D" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;" value="&lt;b&gt;Comunidad de Madrid&lt;/b&gt;&lt;br&gt;Modelo base: singular&lt;br&gt;3/5 semillas · 2/3 umbrales&lt;br&gt;Perfil metropolitano, socioeconómico y logístico" vertex="1">
+          <mxGeometry height="125" width="250" x="600" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="E" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;" value="&lt;b&gt;Algarve&lt;/b&gt;&lt;br&gt;Modelo base: no singular&lt;br&gt;3/5 semillas · 1/3 umbrales&lt;br&gt;Estrés hídrico, clima y potencial fotovoltaico" vertex="1">
+          <mxGeometry height="125" width="250" x="880" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="F" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;" value="&lt;b&gt;Mayor consistencia&lt;/b&gt;&lt;br&gt;Grande Lisboa y Península de Setúbal" vertex="1">
+          <mxGeometry height="80" width="300" x="180" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="G" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;" value="&lt;b&gt;Singularidad intermedia&lt;/b&gt;&lt;br&gt;Comunidad de Madrid" vertex="1">
+          <mxGeometry height="80" width="250" x="520" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="H" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;" value="&lt;b&gt;Sensible al umbral&lt;/b&gt;&lt;br&gt;Algarve" vertex="1">
+          <mxGeometry height="80" width="220" x="810" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="I" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;" value="Las singularidades representan perfiles territoriales diferentes.&lt;br&gt;&lt;b&gt;No se interpretan como errores ni implican eliminación automática.&lt;/b&gt;" vertex="1">
+          <mxGeometry height="90" width="510" x="330" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="J" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" value="Los 22 territorios se conservan para los análisis posteriores&lt;br&gt;&lt;span&gt;PCA y clustering&lt;/span&gt;" vertex="1">
+          <mxGeometry height="75" width="390" x="390" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="K" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#b3b3b3;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=12;dashed=1;" value="Cataluña obtiene la puntuación más negativa del modelo de referencia&lt;br&gt;y el perfil más compatible con el patrón general." vertex="1">
+          <mxGeometry height="80" width="390" x="390" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="eA1" edge="1" parent="1" source="A" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="B">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eA2" edge="1" parent="1" source="A" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="C">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eA3" edge="1" parent="1" source="A" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="D">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eA4" edge="1" parent="1" source="A" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="E">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eBF" edge="1" parent="1" source="B" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="F">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eCF" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="F">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eDG" edge="1" parent="1" source="D" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="G">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eEH" edge="1" parent="1" source="E" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="H">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eFI" edge="1" parent="1" source="F" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="I">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eGI" edge="1" parent="1" source="G" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="I">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eHI" edge="1" parent="1" source="H" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="I">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eIJ" edge="1" parent="1" source="I" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="J">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eJK" edge="1" parent="1" source="J" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="K">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
