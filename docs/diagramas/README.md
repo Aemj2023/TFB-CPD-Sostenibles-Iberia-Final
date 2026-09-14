@@ -64,6 +64,11 @@ Análisis: [PNG](07_conectividad_digital_analisis.png) · [drawio](07_conectivid
 - Proceso: [PNG](11_auditoria_calidad_EDA_proceso.png) · [drawio](11_auditoria_calidad_EDA_proceso.drawio)
 - Análisis: [PNG](11_auditoria_calidad_EDA_analisis.png) · [drawio](11_auditoria_calidad_EDA_analisis.drawio)
 
+### Notebook 12 · Preparación de la matriz multivariante
+
+- Proceso: [PNG](12_preparacion_matriz_multivariante_proceso.png) · [drawio](12_preparacion_matriz_multivariante_proceso.drawio)
+- Análisis: [PNG](12_preparacion_matriz_multivariante_analisis.png) · [drawio](12_preparacion_matriz_multivariante_analisis.drawio)
+
 Integración de las salidas de los Notebooks 01–09 y de la dimensión hídrica WEI+. El resultado es un dataset maestro de 23 territorios y 113 columnas, con 74 variables analíticas distribuidas en nueve familias. Para el análisis se preparan una matriz comparable de 22 × 78 y una matriz completa de 23 × 78, manteniendo Andorra como unidad complementaria sin imputar los 20 valores analíticos no disponibles.
 
 Los archivos `.drawio` son las versiones editables de los diagramas y se pueden abrir con diagrams.net.
