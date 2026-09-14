@@ -1,0 +1,138 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="nb14-process" name="Proceso NB14">
+    <mxGraphModel dx="2943" dy="1880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1780" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;" value="Notebook 14 · Proceso del PCA multivariante" vertex="1">
+          <mxGeometry height="50" width="650" x="260" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="A" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.25;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" value="Notebook 12&lt;br&gt;&lt;b&gt;Matriz estandarizada 22 × 21&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="390" x="390" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#888888;strokeWidth=1;dashed=1;align=center;verticalAlign=middle;fontSize=12;" value="Andorra queda fuera del ajuste del PCA&lt;br&gt;y se mantiene como unidad complementaria." vertex="1">
+          <mxGeometry height="70" width="280" x="810" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="B" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.25;align=center;verticalAlign=middle;fontSize=14;" value="Validación de entrada&lt;br&gt;22 territorios · 21 variables · sin nulos ni valores no finitos" vertex="1">
+          <mxGeometry height="80" width="390" x="390" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="C" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.25;align=center;verticalAlign=middle;fontSize=14;" value="Diagnóstico inicial&lt;br&gt;Pearson + Spearman · KMO = 0,319 · Bartlett significativo" vertex="1">
+          <mxGeometry height="80" width="390" x="390" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="D" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.25;align=center;verticalAlign=middle;fontSize=14;" value="Revisión del KMO&lt;br&gt;impacto de retirar cada variable de forma individual" vertex="1">
+          <mxGeometry height="75" width="390" x="390" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="E" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.25;align=center;verticalAlign=middle;fontSize=14;" value="Matriz específica del PCA&lt;br&gt;Excluir tasa_desempleo y poblacion_edad_laboral&lt;br&gt;&lt;b&gt;22 × 19 · KMO = 0,560&lt;/b&gt;" vertex="1">
+          <mxGeometry height="95" width="390" x="390" y="565" as="geometry" />
+        </mxCell>
+        <mxCell id="F" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.25;align=center;verticalAlign=middle;fontSize=14;" value="PCA completo&lt;br&gt;&lt;b&gt;19 componentes posibles&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="390" x="390" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="G" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.25;align=center;verticalAlign=middle;fontSize=14;" value="Kaiser&lt;br&gt;&lt;b&gt;4 componentes&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="260" x="90" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="H" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.25;align=center;verticalAlign=middle;fontSize=14;" value="Análisis paralelo&lt;br&gt;&lt;b&gt;3 componentes&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="260" x="455" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="I" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.25;align=center;verticalAlign=middle;fontSize=14;" value="Sedimentación + varianza&lt;br&gt;cambio claro tras PC3" vertex="1">
+          <mxGeometry height="70" width="260" x="820" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="J" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.25;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;" value="Solución definitiva&lt;br&gt;&lt;b&gt;3 componentes · 74,54 % de varianza&lt;/b&gt;" vertex="1">
+          <mxGeometry height="75" width="390" x="390" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="K" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.25;align=center;verticalAlign=middle;fontSize=14;" value="Interpretación&lt;br&gt;cargas · contribuciones · comunalidades · familias" vertex="1">
+          <mxGeometry height="75" width="390" x="390" y="1075" as="geometry" />
+        </mxCell>
+        <mxCell id="L" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.25;align=center;verticalAlign=middle;fontSize=14;" value="Puntuaciones territoriales&lt;br&gt;&lt;b&gt;22 territorios × 3 componentes&lt;/b&gt;" vertex="1">
+          <mxGeometry height="75" width="390" x="390" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="M" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.25;align=center;verticalAlign=middle;fontSize=14;" value="Contraste con Isolation Forest&lt;br&gt;+ prueba de sensibilidad sin Grande Lisboa y Península de Setúbal" vertex="1">
+          <mxGeometry height="80" width="390" x="390" y="1305" as="geometry" />
+        </mxCell>
+        <mxCell id="N" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.25;align=center;verticalAlign=middle;fontSize=14;" value="Preparación de salidas&lt;br&gt;matriz 22 × 3 para clustering + formato Power BI de 66 filas" vertex="1">
+          <mxGeometry height="85" width="390" x="390" y="1425" as="geometry" />
+        </mxCell>
+        <mxCell id="N2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#888888;strokeWidth=1;dashed=1;align=center;verticalAlign=middle;fontSize=12;" value="El PCA es exploratorio: no produce un ranking de idoneidad&lt;br&gt;ni genera automáticamente pesos para el IIT-CPD." vertex="1">
+          <mxGeometry height="85" width="280" x="810" y="1425" as="geometry" />
+        </mxCell>
+        <mxCell id="O" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.25;align=center;verticalAlign=middle;fontSize=14;" value="Exportación final&lt;br&gt;&lt;b&gt;17 tablas · 5 figuras · ZIP de 22 archivos&lt;/b&gt;" vertex="1">
+          <mxGeometry height="75" width="390" x="390" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="P" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1.25;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;" value="Entrada del Notebook 15&lt;br&gt;&lt;b&gt;K-means sobre PC1, PC2 y PC3&lt;/b&gt;" vertex="1">
+          <mxGeometry height="75" width="390" x="390" y="1665" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="A" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="B">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="B" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="C">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="D">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="D" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="E">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="E" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="F">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="F" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="G">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="800" />
+              <mxPoint x="220" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="F" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="H">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="F" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="I">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="800" />
+              <mxPoint x="950" y="800" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="G" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="J">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="930" />
+              <mxPoint x="585" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="H" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="J">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="I" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="J">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="930" />
+              <mxPoint x="585" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="J" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="K">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="K" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="L">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="L" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="M">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="M" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="O">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="O" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.25;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="P">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
