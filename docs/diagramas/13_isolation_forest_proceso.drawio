@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="nb13-process" name="Proceso NB13">
+    <mxGraphModel dx="1873" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#ffffff;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=18;fontStyle=1;" value="Notebook 13 · Proceso de detección de singularidades territoriales" vertex="1">
+          <mxGeometry height="50" width="650" x="260" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="A" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;" value="Notebook 12&lt;br&gt;&lt;span&gt;Matriz estandarizada 22 × 21&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="390" x="390" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="N1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#b3b3b3;dashed=1;align=center;verticalAlign=middle;fontSize=12;" value="Andorra se mantiene como unidad complementaria y no participa en el ajuste." vertex="1">
+          <mxGeometry height="70" width="280" x="810" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="B" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;" value="Validación de entrada&lt;br&gt;22 territorios · 21 variables · sin nulos, infinitos ni constantes" vertex="1">
+          <mxGeometry height="80" width="390" x="390" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="C" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;" value="Isolation Forest de referencia&lt;br&gt;500 árboles · semilla 42 · contamination = 0,10" vertex="1">
+          <mxGeometry height="80" width="390" x="390" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="D" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;" value="Estabilidad&lt;br&gt;&lt;b&gt;5 semillas&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="280" x="170" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="E" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;" value="Sensibilidad&lt;br&gt;&lt;b&gt;contamination = 0,05 · 0,10 · 0,15&lt;/b&gt;" vertex="1">
+          <mxGeometry height="70" width="280" x="720" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="F" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;" value="Síntesis de robustez territorial&lt;br&gt;semillas + umbrales" vertex="1">
+          <mxGeometry height="75" width="390" x="390" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="G" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;" value="Caracterización de territorios clave&lt;br&gt;6 mayores desviaciones absolutas (z-score)" vertex="1">
+          <mxGeometry height="80" width="390" x="390" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="H" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;" value="Síntesis final y ranking de singularidad&lt;br&gt;+ perfiles territoriales" vertex="1">
+          <mxGeometry height="75" width="390" x="390" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="I" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;" value="Exportación&lt;br&gt;5 tablas · 5 figuras · 1 configuración" vertex="1">
+          <mxGeometry height="75" width="390" x="390" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="J" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;" value="ZIP final&lt;br&gt;&lt;span&gt;11 archivos&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="390" x="390" y="1055" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="A" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="B">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="B" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="C">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="D">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="C" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="E">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="D" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="F">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="E" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="F">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="F" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="G">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="G" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="H">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="H" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="I">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="I" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="J">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
