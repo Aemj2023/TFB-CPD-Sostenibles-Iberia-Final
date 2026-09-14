@@ -18,5 +18,6 @@ Los numeramos según el orden en que vamos trabajando las distintas partes del p
 | 10 | [Dataset maestro territorial](10-dataset-maestro-integracion-territorial.ipynb) | Integración y validación del dataset maestro territorial | Completado |
 | 11 | [Auditoría de calidad y análisis exploratorio](11-auditoria-calidad-y-eda-maestro-territorial.ipynb) | Control de calidad, EDA y análisis de correlaciones del dataset maestro territorial | Completado |
 | 12 | [Preparación de la matriz multivariante](12-preparacion-y-matriz-multivariante.ipynb) | Selección de variables, transformaciones y estandarización de la matriz multivariante | Completado |
+| 13 | [Detección de singularidades territoriales mediante Isolation Forest](13-isolation-forest.ipynb) | Detección, estabilidad y caracterización de singularidades territoriales mediante Isolation Forest | Completado |
 
 En GitHub dejamos principalmente los notebooks y la documentación. Los archivos de resultados que ocupan más espacio los guardamos aparte.
