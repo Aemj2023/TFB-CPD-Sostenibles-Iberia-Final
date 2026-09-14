@@ -1,0 +1,84 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="nb12-analisis-final" name="Análisis NB12">
+    <mxGraphModel dx="1717" dy="1097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1120" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1;" value="Notebook 12 · Análisis de la preparación multivariante" vertex="1">
+          <mxGeometry height="40" width="960" x="170" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeColor=#cfcfcf;fillColor=#eeeeee;strokeWidth=1.5;" value="Matriz revisada en el EDA&#xa;74 variables · 9 familias" vertex="1">
+          <mxGeometry height="88" width="280" x="35" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="b" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeColor=#cfcfcf;fillColor=#eeeeee;strokeWidth=1.5;" value="Preselección&#xa;23 variables" vertex="1">
+          <mxGeometry height="88" width="215" x="350" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="c" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=13;strokeColor=#cfcfcf;fillColor=#eeeeee;strokeWidth=1.5;" value="Revisión global&#xa;8 pares con |ρ| ≥ 0,80&#xa;2 exclusiones por redundancia" vertex="1">
+          <mxGeometry height="110" width="285" x="600" y="94" as="geometry" />
+        </mxCell>
+        <mxCell id="d" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;fontStyle=1;strokeColor=#bfbfbf;fillColor=#e8e8e8;strokeWidth=1.7;" value="Selección final&#xa;21 variables · 9 familias" vertex="1">
+          <mxGeometry height="88" width="290" x="925" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="comp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=13;strokeColor=#cfcfcf;fillColor=#eeeeee;strokeWidth=1.5;" value="Composición final por familias&#xa;&#xa;Climática 3 · PVGIS 3 · CORINE 1&#xa;Ambiental 2 · Eléctrica 2 · Hídrica 1&#xa;Logística 2 · Digital 3 · Socioeconómica 4" vertex="1">
+          <mxGeometry height="155" width="440" x="145" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="trans" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=13;strokeColor=#cfcfcf;fillColor=#eeeeee;strokeWidth=1.5;" value="Tratamiento estadístico&#xa;&#xa;12 variables con asimetría elevada&#xa;11 candidatas positivas evaluadas con log1p&#xa;Decisión final: 9 LOG1P · 12 sin transformación" vertex="1">
+          <mxGeometry height="155" width="440" x="715" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="std" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=15;fontStyle=1;strokeColor=#bfbfbf;fillColor=#e8e8e8;strokeWidth=1.7;" value="Matriz multivariante estandarizada&#xa;StandardScaler · 22 × 21" vertex="1">
+          <mxGeometry height="100" width="440" x="430" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="export" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeColor=#cfcfcf;fillColor=#eeeeee;strokeWidth=1.5;" value="Salida documentada&#xa;matrices con identificación · 22 × 25&#xa;paquete final · 13 archivos" vertex="1">
+          <mxGeometry height="115" width="400" x="450" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=12;fontStyle=2;strokeColor=#d7d7d7;fillColor=#f5f5f5;strokeWidth=1.2;" value="Andorra se mantiene como unidad territorial complementaria y no interviene en la selección, transformación ni estandarización." vertex="1">
+          <mxGeometry height="72" width="610" x="345" y="965" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="a" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5c5c5c;strokeWidth=2;" target="b" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="b" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5c5c5c;strokeWidth=2;" target="c" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="c" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5c5c5c;strokeWidth=2;" target="d" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5c5c5c;strokeWidth=2;" target="comp" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="252" />
+              <mxPoint x="365" y="252" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="d" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5c5c5c;strokeWidth=2;" target="trans" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1070" y="272" />
+              <mxPoint x="935" y="272" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="comp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5c5c5c;strokeWidth=2;" target="std" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="365" y="530" />
+              <mxPoint x="540" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="trans" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5c5c5c;strokeWidth=2;" target="std" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="935" y="530" />
+              <mxPoint x="760" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="std" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#5c5c5c;strokeWidth=2;" target="export" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
