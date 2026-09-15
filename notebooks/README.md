@@ -21,5 +21,6 @@ Los numeramos según el orden en que vamos trabajando las distintas partes del p
 | 13 | [Detección de singularidades territoriales mediante Isolation Forest](13-isolation-forest.ipynb) | Detección, estabilidad y caracterización de singularidades territoriales mediante Isolation Forest | Completado |
 | 14 | [Análisis multivariante mediante PCA](14-pca-multivariante.ipynb) | Reducción exploratoria de dimensionalidad, interpretación de componentes y preparación para clustering | Completado |
 | 15 | [K-Means para perfiles territoriales](15-kmeans.ipynb) | Formación, estabilidad e interpretación de perfiles territoriales | Completado |
+| 16 | [Índice Territorial Integrado IIT-CPD](16-iitcpd.ipynb) | Construcción, análisis de sensibilidad, Pareto y perfiles territoriales del índice de idoneidad | Completado |
 
 En GitHub dejamos principalmente los notebooks y la documentación. Los archivos de resultados que ocupan más espacio los guardamos aparte.
