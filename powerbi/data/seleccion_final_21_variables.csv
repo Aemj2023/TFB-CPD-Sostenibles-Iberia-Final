@@ -1,0 +1,22 @@
+variable,familia,transformacion,motivo_decision,evidencia_decision
+poblacion_edad_laboral,Socioeconómica,LOG1P,Indicador seleccionado.,"Indicadores demográficos, laborales y formativos."
+densidad_poblacion,Socioeconómica,LOG1P,Indicador seleccionado.,"Indicadores demográficos, laborales y formativos."
+tasa_desempleo,Socioeconómica,NINGUNA,Indicador seleccionado.,"Indicadores demográficos, laborales y formativos."
+nivel_formativo_terciario,Socioeconómica,NINGUNA,Indicador seleccionado.,"Indicadores demográficos, laborales y formativos."
+corine_compat_media_0_3,CORINE,NINGUNA,Indicador CORINE seleccionado.,Representa compatibilidad o artificialización.
+logistica_road_alta_capacidad_km_por_1000km2,Logística,LOG1P,Indicador seleccionado.,Se priorizan indicadores normalizados por superficie.
+logistica_places_n_por_1000km2,Logística,LOG1P,Indicador seleccionado.,Se priorizan indicadores normalizados por superficie.
+pvgis_produccion_anual_kwh_kwp,PVGIS,NINGUNA,Indicador PVGIS seleccionado.,"Representa producción, pérdidas o variabilidad."
+pvgis_perdidas_totales_pct,PVGIS,NINGUNA,Indicador PVGIS seleccionado.,"Representa producción, pérdidas o variabilidad."
+pvgis_coef_variacion_mensual,PVGIS,NINGUNA,Indicador PVGIS seleccionado.,"Representa producción, pérdidas o variabilidad."
+ambiental_densidad_sitios_1000km2,Ambiental,NINGUNA,Indicador ambiental seleccionado.,Representa restricción o densidad ambiental.
+ambiental_penalizacion_media_0_1,Ambiental,NINGUNA,Indicador ambiental seleccionado.,Representa restricción o densidad ambiental.
+electrica_densidad_alta_tension_km_1000km2,Eléctrica,LOG1P,Indicador seleccionado.,Se priorizan las densidades por superficie.
+electrica_densidad_subestaciones_1000km2,Eléctrica,LOG1P,Indicador seleccionado.,Se priorizan las densidades por superficie.
+digital_data_centers_osm_n,Digital,LOG1P,Indicador seleccionado.,Tres indicadores digitales complementarios.
+digital_torres_mastiles_1000km2,Digital,LOG1P,Indicador seleccionado.,Tres indicadores digitales complementarios.
+digital_exchanges_centrales_telecom_1000km2,Digital,LOG1P,Indicador seleccionado.,Tres indicadores digitales complementarios.
+precipitation_daily_mean_mm_2024_2025,Climática,NINGUNA,Indicador seleccionado.,"Se conservan precipitación, temperatura y punto de rocío."
+temperatura_media_2m_c,Climática,NINGUNA,Indicador seleccionado.,"Se conservan precipitación, temperatura y punto de rocío."
+punto_rocio_medio_c,Climática,NINGUNA,Indicador seleccionado.,"Se conservan precipitación, temperatura y punto de rocío."
+hidrica_wei_area_estres_grave_pct_territorio_2019_2023,Hídrica,NINGUNA,Indicador seleccionado.,Se conserva el porcentaje territorial con estrés grave.
