@@ -1,0 +1,23 @@
+codigo_geo,nombre_territorio,pais,pareto_rank,es_pareto_eficiente,numero_dominadores,numero_dominados
+ES11,Galicia,España,1,True,0,0
+ES12,Principado de Asturias,España,1,True,0,0
+ES13,Cantabria,España,1,True,0,0
+ES21,País Vasco,España,1,True,0,0
+ES22,Comunidad Foral de Navarra,España,1,True,0,0
+ES23,La Rioja,España,1,True,0,0
+ES24,Aragón,España,1,True,0,1
+ES30,Comunidad de Madrid,España,1,True,0,0
+ES41,Castilla y León,España,1,True,0,0
+ES42,Castilla-La Mancha,España,1,True,0,0
+ES43,Extremadura,España,2,False,1,0
+ES51,Cataluña,España,1,True,0,0
+ES52,Comunitat Valenciana ,España,1,True,0,0
+ES61,Andalucía,España,1,True,0,0
+ES62,Región de Murcia,España,1,True,0,0
+PT11,Norte,Portugal,1,True,0,0
+PT15,Algarve,Portugal,1,True,0,0
+PT19,Centro (PT),Portugal,1,True,0,0
+PT1A,Grande Lisboa,Portugal,1,True,0,0
+PT1B,Península de Setúbal,Portugal,1,True,0,0
+PT1C,Alentejo,Portugal,1,True,0,0
+PT1D,Oeste e Vale do Tejo,Portugal,1,True,0,0

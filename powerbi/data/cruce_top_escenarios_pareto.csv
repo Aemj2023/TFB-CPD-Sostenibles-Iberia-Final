@@ -1,0 +1,5 @@
+escenario,codigo_geo,nombre_territorio,es_pareto_eficiente,pareto_rank
+Equilibrado,PT1A,Grande Lisboa,True,1
+Energetico,PT1A,Grande Lisboa,True,1
+Ambiental,PT11,Norte,True,1
+Tecnologico,PT1A,Grande Lisboa,True,1

@@ -1,0 +1,20 @@
+variable,familia,transformacion,motivo_decision,evidencia_decision
+poblacion_edad_laboral,Socioeconómica,LOG1P,Indicador demográfico seleccionado.,Representa de forma más directa la población potencialmente activa.
+densidad_poblacion,Socioeconómica,LOG1P,Indicador de concentración territorial de población.,Aporta información distinta del tamaño absoluto de la población.
+tasa_desempleo,Socioeconómica,NINGUNA,Indicador del mercado laboral.,Representa una dimensión socioeconómica diferenciada.
+nivel_formativo_terciario,Socioeconómica,NINGUNA,Indicador de cualificación de la población.,Representa una dimensión formativa diferenciada.
+corine_compat_media_0_3,CORINE,NINGUNA,Indicador sintético de compatibilidad territorial preliminar.,Resume los niveles de compatibilidad; rho baja = -0.951 y rho media = 0.942.
+logistica_road_alta_capacidad_km_por_1000km2,Logística,LOG1P,Indicador normalizado seleccionado para comparar territorios.,Se expresa por 1.000 km² y evita depender directamente del tamaño territorial.
+logistica_places_n_por_1000km2,Logística,LOG1P,Indicador normalizado seleccionado para comparar territorios.,Se expresa por 1.000 km² y evita depender directamente del tamaño territorial.
+pvgis_produccion_anual_kwh_kwp,PVGIS,NINGUNA,Indicador del potencial fotovoltaico anual.,Contiene prácticamente la misma información que la media mensual.
+pvgis_perdidas_totales_pct,PVGIS,NINGUNA,Indicador complementario de pérdidas del sistema fotovoltaico.,Representa una dimensión distinta de la producción solar estimada.
+pvgis_coef_variacion_mensual,PVGIS,NINGUNA,Indicador relativo de variabilidad mensual.,Permite comparar variabilidad teniendo en cuenta el nivel medio de producción.
+ambiental_densidad_sitios_1000km2,Ambiental,NINGUNA,Indicador complementario de intensidad de espacios protegidos.,No forma parte de la composición porcentual ni se deriva de la penalización.
+ambiental_penalizacion_media_0_1,Ambiental,NINGUNA,Indicador sintético de restricción ambiental.,Resume mediante ponderaciones la proximidad a espacios protegidos.
+digital_data_centers_osm_n,Digital,LOG1P,Indicador digital seleccionado para la matriz reducida.,Representa una dimensión complementaria de infraestructura digital.
+digital_torres_mastiles_1000km2,Digital,LOG1P,Indicador digital seleccionado para la matriz reducida.,Representa una dimensión complementaria de infraestructura digital.
+digital_exchanges_centrales_telecom_1000km2,Digital,LOG1P,Indicador digital seleccionado para la matriz reducida.,Representa una dimensión complementaria de infraestructura digital.
+precipitation_daily_mean_mm_2024_2025,Climática,NINGUNA,Representante de la información de precipitación.,Equivalente al total y expresada como media diaria.
+temperatura_media_2m_c,Climática,NINGUNA,Indicador térmico principal.,Representa directamente las condiciones térmicas medias del territorio.
+punto_rocio_medio_c,Climática,NINGUNA,Indicador complementario de humedad atmosférica.,Aporta información distinta de la temperatura media y de la precipitación.
+hidrica_wei_area_estres_grave_pct_territorio_2019_2023,Hídrica,NINGUNA,Indicador seleccionado de estrés hídrico territorial.,Expresa directamente el porcentaje del territorio sometido a estrés grave.

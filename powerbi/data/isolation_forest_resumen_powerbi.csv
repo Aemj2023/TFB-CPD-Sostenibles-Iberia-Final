@@ -1,0 +1,23 @@
+codigo_geo,nombre_territorio,pais,score_anomalia,singular,veces_singular,frecuencia,cont_05,cont_10,cont_15,n_umbrales,ranking_singularidad
+PT1A,Grande Lisboa,Portugal,0.03533784007133156,True,5,1.0,True,True,True,3,1
+PT15,Algarve,Portugal,0.014939807394231619,True,5,1.0,True,True,True,3,2
+ES30,Comunidad de Madrid,España,0.0003961588800901472,True,5,1.0,False,True,True,2,3
+ES61,Andalucía,España,-0.003565429920811214,False,0,0.0,False,False,True,1,4
+ES43,Extremadura,España,-0.0036717657980984697,False,0,0.0,False,False,False,0,5
+PT1C,Alentejo,Portugal,-0.004902718797898609,False,0,0.0,False,False,False,0,6
+PT1B,Península de Setúbal,Portugal,-0.008059722908781985,False,0,0.0,False,False,False,0,7
+ES11,Galicia,España,-0.014466393328462723,False,0,0.0,False,False,False,0,8
+ES42,Castilla-La Mancha,España,-0.014801111050261662,False,0,0.0,False,False,False,0,9
+ES62,Región de Murcia,España,-0.015405499188229865,False,0,0.0,False,False,False,0,10
+ES13,Cantabria,España,-0.016801414024821715,False,0,0.0,False,False,False,0,11
+ES21,País Vasco,España,-0.018467706502291015,False,0,0.0,False,False,False,0,12
+PT11,Norte,Portugal,-0.022905900397549972,False,0,0.0,False,False,False,0,13
+ES12,Principado de Asturias,España,-0.02515442461176587,False,0,0.0,False,False,False,0,14
+PT1D,Oeste e Vale do Tejo,Portugal,-0.034387197727769214,False,0,0.0,False,False,False,0,15
+ES23,La Rioja,España,-0.04618474018820162,False,0,0.0,False,False,False,0,16
+PT19,Centro (PT),Portugal,-0.04985816324529391,False,0,0.0,False,False,False,0,17
+ES52,Comunitat Valenciana ,España,-0.05060301597402661,False,0,0.0,False,False,False,0,18
+ES22,Comunidad Foral de Navarra,España,-0.05429820612460856,False,0,0.0,False,False,False,0,19
+ES51,Cataluña,España,-0.06695616667226756,False,0,0.0,False,False,False,0,20
+ES41,Castilla y León,España,-0.0686523229397169,False,0,0.0,False,False,False,0,21
+ES24,Aragón,España,-0.07726025337084325,False,0,0.0,False,False,False,0,22

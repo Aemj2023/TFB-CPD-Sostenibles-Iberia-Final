@@ -1,0 +1,25 @@
+codigo_geo,nombre_territorio,variable,z_score,abs_z_score,ranking_variable
+PT15,Algarve,hidrica_wei_area_estres_grave_pct_territorio_2019_2023,2.61958949460005,2.61958949460005,1
+PT15,Algarve,digital_data_centers_osm_n,-1.5898146574941443,1.5898146574941443,2
+PT15,Algarve,pvgis_produccion_anual_kwh_kwp,1.580347450498924,1.580347450498924,3
+PT15,Algarve,temperatura_media_2m_c,1.4498251376572644,1.4498251376572644,4
+PT15,Algarve,punto_rocio_medio_c,1.4291637877974082,1.4291637877974082,5
+PT15,Algarve,nivel_formativo_terciario,-1.403212521117473,1.403212521117473,6
+PT1A,Grande Lisboa,corine_compat_media_0_3,2.6712679230404155,2.6712679230404155,1
+PT1A,Grande Lisboa,logistica_road_alta_capacidad_km_por_1000km2,2.5168857775029405,2.5168857775029405,2
+PT1A,Grande Lisboa,digital_torres_mastiles_1000km2,2.408054973701529,2.408054973701529,3
+PT1A,Grande Lisboa,densidad_poblacion,2.350378888142589,2.350378888142589,4
+PT1A,Grande Lisboa,digital_exchanges_centrales_telecom_1000km2,2.206586442406928,2.206586442406928,5
+PT1A,Grande Lisboa,punto_rocio_medio_c,1.81476039874452,1.81476039874452,6
+ES30,Comunidad de Madrid,densidad_poblacion,1.819330426363447,1.819330426363447,1
+ES30,Comunidad de Madrid,poblacion_edad_laboral,1.598886406370697,1.598886406370697,2
+ES30,Comunidad de Madrid,logistica_road_alta_capacidad_km_por_1000km2,1.5663404634798364,1.5663404634798364,3
+ES30,Comunidad de Madrid,punto_rocio_medio_c,-1.492131039687535,1.492131039687535,4
+ES30,Comunidad de Madrid,nivel_formativo_terciario,1.3990362933760516,1.3990362933760516,5
+ES30,Comunidad de Madrid,digital_data_centers_osm_n,1.2965577401803072,1.2965577401803072,6
+ES61,Andalucía,tasa_desempleo,2.409828910982475,2.409828910982475,1
+ES61,Andalucía,poblacion_edad_laboral,1.8114312916856576,1.8114312916856576,2
+ES61,Andalucía,pvgis_perdidas_totales_pct,-1.7138433622878626,1.7138433622878626,3
+ES61,Andalucía,pvgis_coef_variacion_mensual,-1.69920198772088,1.69920198772088,4
+ES61,Andalucía,hidrica_wei_area_estres_grave_pct_territorio_2019_2023,1.5429434552812944,1.5429434552812944,5
+ES61,Andalucía,digital_data_centers_osm_n,1.2965577401803072,1.2965577401803072,6

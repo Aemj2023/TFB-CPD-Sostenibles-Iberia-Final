@@ -1,0 +1,6 @@
+comprobacion,spearman_rho
+Densidad: triangular vs exclusión,0.924
+Densidad: triangular vs beneficio,0.94
+Normalización: min-max vs P5-P95,0.967
+Con vs sin Capital humano,0.896
+Con vs sin Eléctrica,0.858
