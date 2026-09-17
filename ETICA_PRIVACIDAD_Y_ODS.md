@@ -1,102 +1,115 @@
 # Ética, privacidad y contribución a los ODS
 
-Este documento resume los criterios éticos, de privacidad y de uso responsable de inteligencia artificial aplicados en el TFB **Localización sostenible de centros de datos**.
+En este documento explicamos los criterios éticos y de privacidad que hemos tenido en cuenta durante el TFB **Localización sostenible de centros de datos**.
 
-También recoge la relación del proyecto con los Objetivos de Desarrollo Sostenible definidos en la Entrega 2.
+También explicamos cómo hemos utilizado herramientas de inteligencia artificial durante el desarrollo del trabajo y la relación del proyecto con los Objetivos de Desarrollo Sostenible definidos en la Entrega 2.
 
 ## Alcance del análisis
 
-La comparación principal se realiza sobre 22 regiones NUTS 2 de España y Portugal. Andorra se mantiene como unidad complementaria cuando no dispone de información equivalente.
+Realizamos la comparación principal sobre 22 regiones NUTS 2 de España y Portugal. Mantenemos Andorra como una unidad complementaria cuando no dispone de información equivalente.
 
-El `IIT-CPD` permite comparar territorios y estudiar distintos escenarios de decisión. No selecciona una parcela concreta ni sustituye los estudios técnicos, ambientales, urbanísticos, energéticos o económicos necesarios para una implantación real.
+Con el `IIT-CPD` comparamos los territorios y analizamos distintos escenarios. No lo utilizamos para decidir una parcela concreta ni para afirmar que un territorio sea adecuado directamente para instalar un centro de datos.
 
-Por este motivo, los rankings se utilizan como apoyo a la decisión y no como una recomendación automática.
+Para llegar a una decisión real harían falta estudios más específicos sobre la parcela, la red eléctrica, el impacto ambiental, el urbanismo, los costes y otros condicionantes que quedan fuera del alcance del TFB.
+
+Por eso utilizamos los rankings como una forma de comparar territorios y no como una decisión automática.
 
 ## Transparencia y calidad de los datos
 
-Los notebooks documentan las fuentes utilizadas, las principales transformaciones y las decisiones tomadas durante el análisis.
+En los notebooks dejamos documentadas las fuentes que hemos utilizado, las transformaciones que realizamos y las decisiones importantes que fuimos tomando durante el análisis.
 
-Isolation Forest, PCA y K-Means ayudan a estudiar la estructura de los datos, pero no asignan automáticamente los pesos del `IIT-CPD`.
+No todas las fuentes corresponden al mismo año ni tienen la misma escala o cobertura. Por eso, cuando podemos, también guardamos el año y la procedencia de los datos. 
 
-Las fuentes tampoco presentan siempre la misma fecha, escala o cobertura. Esto es especialmente importante en OpenStreetMap, PeeringDB y RIPE Atlas, donde una menor presencia de elementos registrados no significa necesariamente que exista menos infraestructura real.
+Esto es importante en fuentes como OpenStreetMap, PeeringDB o RIPE Atlas. Encontrar menos elementos registrados en un territorio no significa que exista menos infraestructura. También puede existir una diferencia en la cobertura de los datos.
 
-Cuando la información disponible lo permite diferenciamos entre un valor igual a cero, un dato no disponible y una posible falta de cobertura.
+Cuando podemos distinguirlo, separamos un valor igual a cero de un dato que no está disponible.
+
+Utilizamos Isolation Forest, PCA y K-Means para entender la estructura de los datos y las diferencias entre territorios. No utilizamos estos métodos para decidir automáticamente los pesos del `IIT-CPD`.
 
 ## Privacidad y protección de la información
 
-El proyecto utiliza principalmente información territorial, climática, ambiental, energética, socioeconómica y de infraestructuras.
+Trabajamos con datos territoriales, climáticos, ambientales, energéticos, socioeconómicos y de infraestructuras.
 
-No trabajamos de forma intencionada con datos destinados a identificar personas.
+No hemos buscado ni utilizado de forma intencionada información destinada a identificar personas.
 
-RIPE Atlas publica las posiciones de sus probes con un desplazamiento deliberado por motivos de privacidad. En nuestro análisis utilizamos estos puntos para generar indicadores territoriales y no intentamos reconstruir sus ubicaciones exactas.
+En el caso de RIPE Atlas, las posiciones de los probes ya se publican con un desplazamiento por motivos de privacidad. Nosotros utilizamos esos puntos para obtener información territorial y no intentamos averiguar su posición real.
 
-Tampoco publicamos contraseñas, claves de API, tokens, credenciales, datos personales o información confidencial.
+Tampoco publicamos contraseñas, claves de API, tokens, credenciales o información confidencial.
 
-Cuando pudiera existir tratamiento de datos personales tomamos como referencia los principios establecidos en el Reglamento (UE) 2016/679 (RGPD), especialmente la transparencia, la limitación de la finalidad y la minimización de los datos.
+Si utilizamos datos personales, tomamos como referencia el Reglamento (UE) 2016/679 (RGPD), sobre todo en lo relacionado con la finalidad y con utilizar únicamente los datos necesarios.
 
 ## Uso responsable de inteligencia artificial
 
-Durante el desarrollo del TFB hemos utilizado herramientas de inteligencia artificial generativa como apoyo en determinadas tareas del proceso de trabajo.
+Durante el desarrollo del TFB hemos utilizado herramientas de inteligencia artificial generativa como apoyo en algunas tareas.
 
-Su utilización se ha realizado siguiendo criterios de transparencia, revisión humana y responsabilidad de los autores. La IA no se considera una fuente de datos ni una referencia académica, y sus respuestas no se incorporan al proyecto sin revisión.
+Las hemos utilizado como una herramienta de ayuda y no como una fuente de datos ni como una referencia académica.
+
+Antes de incorporar una propuesta al proyecto la revisamos y comprobamos si coincide con lo que hacen los datos, el código o la fuente correspondiente.
 
 ### Uso realizado
 
-Las herramientas de IA se han utilizado principalmente para:
+Las hemos utilizado para:
 
-- apoyo en la planificación y organización de tareas;
-- revisión y mejora de fragmentos de código;
-- ayuda en la identificación y depuración de errores;
-- asistencia puntual en cuestiones técnicas;
-- revisión de claridad, estructura y documentación del proyecto.
+- organizar algunas tareas del proyecto;
+- revisar fragmentos de código;
+- localizar errores cuando algo no funcionaba;
+- resolver dudas técnicas concretas;
+- revisar si una explicación se entendía bien;
+- mejorar la organización de parte de la documentación.
 
-Las fuentes de datos, la ejecución de los notebooks, la selección final de variables y métodos, la comprobación de los resultados y las decisiones que forman parte del TFB permanecen bajo responsabilidad de los autores.
+Las decisiones del proyecto las hemos tomado nosotros.
 
-Cuando una propuesta obtenida mediante IA afecta al código o a la documentación, la revisamos antes de incorporarla y la contrastamos con la ejecución real del proyecto o con la fuente correspondiente.
+También hemos ejecutado los notebooks, comprobado sus resultados, revisado las variables utilizadas y validado los cambios antes de mantenerlos en la versión final.
+
+Cuando una propuesta afecta al código, comprobamos después que funcione y que produzca el resultado esperado.
+
+Cuando afecta a una explicación o a la documentación, comprobamos que describa lo que hemos hecho.
+
+No utilizamos estas herramientas para sustituir la ejecución de los análisis ni nuestra interpretación de los resultados.
 
 ### Transparencia del uso
 
-Siguiendo prácticas que actualmente aplican distintas universidades en trabajos académicos, consideramos importante declarar:
+Queremos dejar claro para qué hemos utilizado estas herramientas y qué decisiones y resultados son nuestros. 
 
-1. la herramienta utilizada;
-2. la finalidad para la que se utilizó;
-3. el tipo de tarea en la que intervino;
-4. el grado aproximado de asistencia;
-5. la revisión realizada posteriormente por los autores.
+La autoría y la responsabilidad del trabajo corresponden a Antonio Eloy Martínez Jiménez y Alberto Sanz Viñuela.
 
-Cuando sea necesario en la entrega final, esta información puede ampliarse mediante una declaración o anexo específico de uso de inteligencia artificial.
+No consideramos las herramientas de inteligencia artificial autoras del trabajo.
 
-No atribuimos autoría a las herramientas de IA. La autoría, la revisión y la responsabilidad académica del trabajo corresponden a Antonio Eloy Martínez Jiménez y Alberto Sanz Viñuela.
+Si necesitamos explicar con más detalle su uso en la entrega final, podemos indicar qué herramienta hemos utilizado, para qué tarea la hemos usado y qué comprobación hemos realizado después.
 
 ### Verificación y límites
 
-No utilizamos una respuesta generada por IA como evidencia científica ni como sustituto de una fuente original.
+No utilizamos una respuesta generada por IA como evidencia científica.
 
-Los datos, referencias, resultados numéricos y afirmaciones técnicas relevantes se comprueban mediante las fuentes empleadas en el proyecto o mediante la ejecución de los notebooks.
+Cuando necesitamos justificar un dato o una afirmación técnica acudimos a la fuente correspondiente o al resultado obtenido en nuestros notebooks.
 
-Tampoco introducimos deliberadamente en estas herramientas contraseñas, claves de API, tokens, datos personales innecesarios o información confidencial.
+También comprobamos los resultados numéricos con las salidas del proyecto.
 
-Como referencia general de uso responsable tenemos en cuenta los principios de alfabetización en inteligencia artificial del Reglamento (UE) 2024/1689 y, cuando pudiera existir tratamiento de información personal, los principios de protección de datos del Reglamento (UE) 2016/679.
+No introducimos contraseñas, claves de API, tokens, datos personales innecesarios o información confidencial en estas herramientas.
 
-Estas referencias no sustituyen la normativa académica aplicable al TFB. En caso de existir instrucciones específicas de la universidad, de la titulación o del tutor sobre el uso de inteligencia artificial, estas tienen prioridad.
+También tomamos como referencia el Reglamento (UE) 2024/1689 para el uso de la inteligencia artificial y el Reglamento (UE) 2016/679 para la protección de datos. 
+
+En cualquier caso, seguimos las normas del TFB y las indicaciones que nos dé la universidad o el tutor.
 
 ## Relación con los ODS
 
-La Entrega 2 relacionó el proyecto con los **ODS 7, 9, 11 y 13**.
+En la Entrega 2 relacionamos el proyecto con los **ODS 7, 9, 11 y 13**.
 
-- **ODS 7 · Energía asequible y no contaminante:** potencial solar, clima e infraestructura eléctrica.
-- **ODS 9 · Industria, innovación e infraestructura:** infraestructura eléctrica, logística y digital.
-- **ODS 11 · Ciudades y comunidades sostenibles:** cobertura del suelo, accesibilidad y restricciones ambientales.
-- **ODS 13 · Acción por el clima:** variables climáticas, potencial solar y condiciones ambientales.
+- **ODS 7 · Energía asequible y no contaminante:** lo relacionamos con el potencial solar, el clima y la infraestructura eléctrica.
+- **ODS 9 · Industria, innovación e infraestructura:** lo relacionamos con la infraestructura eléctrica, logística y digital.
+- **ODS 11 · Ciudades y comunidades sostenibles:** lo relacionamos con la cobertura del suelo, la accesibilidad y las restricciones ambientales.
+- **ODS 13 · Acción por el clima:** lo relacionamos con las variables climáticas, el potencial solar y las condiciones ambientales.
 
-Estas relaciones indican qué partes del proyecto tienen relación con esos objetivos, pero el `IIT-CPD` no mide directamente su cumplimiento.
+Estas relaciones nos sirven para explicar qué partes del proyecto están relacionadas con cada objetivo. El `IIT-CPD` no mide directamente el cumplimiento de los ODS.
 
-La versión final incorpora además una dimensión de estrés hídrico. La consideramos una ampliación del análisis de sostenibilidad, pero mantenemos los ODS 7, 9, 11 y 13 como los definidos formalmente en la Entrega 2.
+En la versión final también incorporamos el estrés hídrico. Lo consideramos una ampliación del análisis de sostenibilidad, pero mantenemos los ODS 7, 9, 11 y 13 porque son los que definimos formalmente en la Entrega 2.
 
 ## Criterios de publicación
 
-Para mantener la trazabilidad del proyecto conservamos la atribución de las fuentes, documentamos las principales transformaciones y evitamos publicar información personal o confidencial.
+Para mantener la trazabilidad dejamos identificadas las fuentes que utilizamos y documentamos las transformaciones realizadas.
 
-Los resultados se presentan principalmente de forma territorial y agregada, y mantenemos visibles las limitaciones de los datos y del modelo.
+También evitamos publicar información personal o confidencial.
 
-El `IIT-CPD` es una herramienta de comparación territorial. La elección definitiva de una localización requeriría estudios técnicos específicos.
+Mostramos los resultados por territorios y dejamos indicadas las limitaciones que hemos encontrado en los datos y en el modelo.
+
+Utilizamos el `IIT-CPD` para comparar territorios. Para elegir una localización concreta necesitaríamos realizar estudios técnicos específicos que no forman parte de este TFB.
