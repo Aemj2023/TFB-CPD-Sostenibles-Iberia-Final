@@ -2,6 +2,12 @@
 
 Aquí dejamos los diagramas que acompañan a los notebooks del TFB. Para cada notebook guardamos el proceso seguido y un resumen del análisis realizado.
 
+## 00 · Flujo general
+
+Proceso: [PNG](00_flujo_general_proceso.png) · [drawio](00_flujo_general_proceso.drawio)
+
+Análisis: [PNG](00_flujo_general_analisis.png) · [drawio](00_flujo_general_analisis.drawio)
+
 ## Notebook 01 · ERA5-Land 2024–2025
 
 Proceso: [PNG](01_era5_land_proceso.png) · [drawio](01_era5_land_proceso.drawio)
@@ -34,9 +40,9 @@ Análisis: [PNG](05_restricciones_ambientales_analisis.png) · [drawio](05_restr
 
 ## Notebook 06 · Infraestructura eléctrica
 
-Proceso: [PNG](06_infraestructura_electrica_proceso.png) · [drawio](06_infraestructura_electrica_proceso.drawio)
+Proceso: [PNG](06_diagrama_proceso.png) · [drawio](06_diagrama_proceso.drawio)
 
-Análisis: [PNG](06_infraestructura_electrica_analisis.png) · [drawio](06_infraestructura_electrica_analisis.drawio)
+Análisis: [PNG](06_diagrama_analisis.png) · [drawio](06_diagrama_analisis.drawio)
 
 ## Notebook 07 · Conectividad digital y telecomunicaciones
 
@@ -61,8 +67,8 @@ Análisis: [PNG](07_conectividad_digital_analisis.png) · [drawio](07_conectivid
 
 ### Notebook 11 · Auditoría de calidad y análisis exploratorio
 
-- Proceso: [PNG](11_auditoria_calidad_EDA_proceso.png) · [drawio](11_auditoria_calidad_EDA_proceso.drawio)
-- Análisis: [PNG](11_auditoria_calidad_EDA_analisis.png) · [drawio](11_auditoria_calidad_EDA_analisis.drawio)
+- Proceso: [PNG](11_dataset_maestro_eda_proceso.png) · [drawio](11_dataset_maestro_eda_proceso.drawio)
+- Análisis: [PNG](11_dataset_maestro_eda_analisis.png) · [drawio](11_dataset_maestro_eda_analisis.drawio)
 
 ### Notebook 12 · Preparación de la matriz multivariante
 
@@ -92,4 +98,5 @@ Análisis: [PNG](07_conectividad_digital_analisis.png) · [drawio](07_conectivid
 Integración de las salidas de los Notebooks 01–09 y de la dimensión hídrica WEI+. El resultado es un dataset maestro de 23 territorios y 113 columnas, con 74 variables analíticas distribuidas en nueve familias. Para el análisis se preparan una matriz comparable de 22 × 78 y una matriz completa de 23 × 78, manteniendo Andorra como unidad complementaria sin imputar los 20 valores analíticos no disponibles.
 
 Los archivos `.drawio` son las versiones editables de los diagramas y se pueden abrir con diagrams.net.
+
 Si modificamos de forma importante un notebook, revisamos también sus diagramas.
