@@ -43,7 +43,7 @@ Los Notebooks 01–09 preparan las distintas fuentes de datos. El Notebook 10 la
 
 Después del EDA y la selección de variables trabajamos con una matriz de **22 territorios y 21 variables**.
 
-Utilizamos Isolation Forest, PCA y K-Means para entender mejor la estructura de los datos y los perfiles territoriales. No los utilizamos para asignar directamente los pesos del índice No asignan directamente los pesos del índice.
+Utilizamos Isolation Forest, PCA y K-Means para entender mejor la estructura de los datos y los perfiles territoriales. No los utilizamos para asignar directamente los pesos del índice.
 
 ## IIT-CPD
 
