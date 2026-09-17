@@ -43,7 +43,7 @@ Los Notebooks 01–09 preparan las distintas fuentes de datos. El Notebook 10 la
 
 Después del EDA y la selección de variables trabajamos con una matriz de **22 territorios y 21 variables**.
 
-Isolation Forest, PCA y K-Means se utilizan para entender mejor la estructura de los datos y los perfiles territoriales. No asignan directamente los pesos del índice.
+Utilizamos Isolation Forest, PCA y K-Means para entender mejor la estructura de los datos y los perfiles territoriales. No los utilizamos para asignar directamente los pesos del índice No asignan directamente los pesos del índice.
 
 ## IIT-CPD
 
@@ -76,19 +76,19 @@ Las fuentes no pertenecen todas al mismo año.
 
 ERA5-Land utiliza el periodo **2024–2025**. Para el resto de los datos usamos la información más reciente disponible que permite mantener una cobertura comparable entre territorios.
 
-Por ello, el dataset final debe entenderse como una fotografía territorial integrada y no como una serie temporal homogénea.
+Por eso, el dataset final reúne información de distintos años y no lo utilizamos como una serie temporal.
 
 ## Power BI
 
 Power BI utiliza las salidas obtenidas en Python para consultar de forma conjunta el IIT-CPD, los perfiles territoriales y el resto de resultados del análisis.
 
-Los cálculos del modelo se realizan en los notebooks y no en Power BI.
+Realizamos los cálculos del modelo en los notebooks y no en Power BI.
 
 ## Reproducibilidad
 
 En GitHub dejamos los notebooks, la documentación, los diagramas y los archivos necesarios para seguir el trabajo.
 
-Los datos y resultados de mayor tamaño se guardan aparte, indicando su procedencia y el proceso utilizado para obtenerlos.
+Los datos y resultados de mayor tamaño los guardamos aparte y dejamos indicada su procedencia y cómo los hemos obtenido.
 
 ## Autores
 
