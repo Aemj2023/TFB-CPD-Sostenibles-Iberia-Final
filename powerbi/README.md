@@ -1,22 +1,7 @@
-# Power BI
+# Datos para Power BI
 
-En esta carpeta hemos incluido el informe final de Power BI que utilizamos para visualizar de forma conjunta los resultados obtenidos durante el análisis.
+En esta carpeta hemos reunido los archivos CSV utilizados en el informe de Power BI y algunos archivos de apoyo que conservamos para mantener la trazabilidad con los notebooks.
 
-## Informe
+Power BI utiliza estos datos para representar los resultados obtenidos previamente en los análisis de PCA, Isolation Forest, K-Means, IIT-CPD, Pareto y sensibilidad.
 
-El archivo `TFB_V6_FINAL.pbix` contiene el cuadro de mando final.
-
-El informe está organizado en 10 páginas, donde podemos consultar los principales resultados del trabajo y comparar los territorios desde distintos puntos de vista.
-
-## Datos
-
-En la carpeta `data/` están los archivos CSV que utiliza Power BI y que proceden de las salidas generadas anteriormente en los notebooks.
-
-Power BI no vuelve a calcular los modelos. Lo utilizamos para representar y relacionar los resultados que ya hemos obtenido con:
-
-- Isolation Forest
-- PCA
-- K-Means
-- IIT-CPD por escenario
-- frontera de Pareto
-- análisis de sensibilidad
+También conservamos algunas salidas de los notebooks que sirven como referencia y permiten comprobar el origen de los resultados. Power BI no vuelve a calcular los modelos.
