@@ -1,8 +1,8 @@
 # Fuentes y licencias
 
-Este documento reúne las principales fuentes utilizadas en el TFB **Localización sostenible de centros de datos** y las condiciones que debemos tener en cuenta al publicar sus resultados.
+Este documento reúne las fuentes utilizadas en el TFB **Localización sostenible de centros de datos** y las condiciones que debemos tener en cuenta al publicar sus resultados.
 
-En algunos notebooks reutilizamos archivos ya disponibles en Kaggle Input. Kaggle es en esos casos el lugar desde el que recuperamos el archivo, pero no sustituye a la fuente original.
+En algunos notebooks reutilizamos archivos disponibles en Kaggle Input. Kaggle es en esos casos el lugar desde el que recuperamos el archivo, pero no sustituye a la fuente original.
 
 Los datos tampoco corresponden todos al mismo año. El proyecto combina la información reciente que hemos podido obtener de forma comparable para cada dimensión.
 
@@ -40,25 +40,24 @@ Para ERA5-Land identificamos Copernicus Climate Change Service y dejamos claro q
 En los resultados de PVGIS indicamos **European Commission, Joint Research Centre (JRC), PVGIS 5.3** y diferenciamos los datos de los cálculos realizados en el TFB.
 
 Las coordenadas publicadas por RIPE Atlas están desplazadas deliberadamente por privacidad. Las utilizamos para indicadores territoriales y no intentamos reconstruir la localización exacta de los probes.
-
-En las fuentes de terceros evitamos redistribuir las bases originales completas cuando no es necesario. El repositorio contiene principalmente código, documentación y resultados derivados.
+No redistribuimos las bases originales completas de terceros cuando no hace falta. El repositorio contiene código, documentación y resultados derivados.
 
 ## Fuentes utilizadas como contraste
 
 En el Notebook 06 consultamos también **Redeia, REN, ENTSO-E y FEDA** como referencias de contexto.
 
-No utilizamos datos de estas fuentes para calcular posteriormente los indicadores eléctricos del modelo. Las variables eléctricas incorporadas al análisis proceden finalmente de OpenStreetMap.
+No utilizamos datos de estas fuentes para calcular los indicadores eléctricos del modelo. Las variables eléctricas incorporadas al análisis proceden de OpenStreetMap.
 
 ## Notebooks 11–16
 
 Los Notebooks 11–16 no añaden nuevas fuentes primarias.
 
-Trabajan sobre las salidas ya preparadas para realizar la auditoría y el EDA, preparar la matriz multivariante, aplicar Isolation Forest, PCA y K-Means y construir finalmente el `IIT-CPD` y el análisis de Pareto.
+Los Notebooks 11–16 trabajan con las salidas anteriores para realizar la auditoría y el EDA, preparar la matriz multivariante, aplicar Isolation Forest, PCA y K-Means y construir el IIT-CPD y el análisis de Pareto.
 
 ## Licencia del repositorio
 
-Actualmente el repositorio no contiene un archivo `LICENSE`.
+El repositorio no contiene un archivo `LICENSE`.
 
-Por tanto, no asumimos una autorización general para copiar, modificar o redistribuir el código. Si posteriormente incorporamos una licencia propia, esta no sustituirá las condiciones de las fuentes externas utilizadas en el proyecto.
+Por tanto, no asumimos una autorización general para copiar, modificar o redistribuir el código. Si más adelante añadimos una licencia propia, seguiremos respetando las condiciones de las fuentes externas que hemos utilizado.
 
-Las atribuciones y restricciones indicadas por cada proveedor deben mantenerse con independencia de la licencia que podamos aplicar al repositorio.
+Mantenemos las atribuciones y restricciones que indica cada proveedor, aunque añadamos una licencia al repositorio.
