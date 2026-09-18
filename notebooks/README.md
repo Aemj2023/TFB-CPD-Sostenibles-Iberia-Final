@@ -2,7 +2,7 @@
 
 En esta carpeta están los notebooks que utilizamos en el TFB.
 
-Los numeramos según el orden en que vamos trabajando las distintas partes del proyecto. En cada uno revisamos los datos, hacemos el procesamiento correspondiente y dejamos preparadas las salidas que necesitaremos más adelante.
+Los numeramos según el orden en que vamos trabajando las distintas partes del proyecto. En cada uno revisamos los datos, hacemos el procesamiento y dejamos preparadas las salidas que necesitaremos más adelante.
 
 | Nº | Notebook | Contenido | Estado |
 | --- | --- | --- | --- |
@@ -23,4 +23,4 @@ Los numeramos según el orden en que vamos trabajando las distintas partes del p
 | 15 | [K-Means para perfiles territoriales](15-kmeans.ipynb) | Formación, estabilidad e interpretación de perfiles territoriales | Completado |
 | 16 | [Índice Territorial Integrado IIT-CPD](16-pareto.ipynb) | Construcción, análisis de sensibilidad, Pareto y perfiles territoriales del índice de idoneidad | Completado |
 
-En GitHub dejamos principalmente los notebooks y la documentación. Los archivos de resultados que ocupan más espacio los guardamos aparte.
+En GitHub dejamos los notebooks y la documentación. Los archivos de resultados que ocupan más espacio los guardamos aparte.
