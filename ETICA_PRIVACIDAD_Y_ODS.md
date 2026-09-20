@@ -56,6 +56,7 @@ Las hemos utilizado para:
 - resolver dudas técnicas concretas;
 - revisar si una explicación se entendía bien;
 - mejorar la organización de parte de la documentación.
+- para generar infografías.
 
 Las decisiones del proyecto las hemos tomado nosotros.
 
